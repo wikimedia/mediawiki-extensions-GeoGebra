@@ -3,10 +3,10 @@
  * GeoGebra extension
  *
  * @author Rudolf Grossmann
- * @version 2.7i
+ * @version 2.8a
  */
  
-$ggb_version = "2.7i";
+$ggb_version = "2.8a";
  
 // This MediaWiki extension is based on the Java Applet extension by Phil Trasatti
 // see: http://www.mediawiki.org/wiki/Extension:Java_Applet
@@ -34,6 +34,7 @@ function ggb_AppletSetup() {
  
 function get_ggbAppletOutput( $input, $args, $parser ) {
         global $wgServer; // URL of the WIKI's server
+        global $wgVersion; // Version number of MediaWiki Software
         global $ggb_version; // see line 9 of this file
  
         $error_message = "no error"; //will be overwritten, if error occurs
@@ -53,19 +54,12 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
         $special_parameters = array('width', 'height', 'uselocaljar', 'usesignedjar', 'substimage', 'filename', 'ggbbase64', 'version', 'debug'); 
         $noJavaText = 'Please <a href="http://java.sun.com/getjava">install Java</a> to use this page.'; 
  
-        // recursive parse in case we are inside a template - see 
-        if($wgVersion >='1.16') {
-                foreach($args as &$arg) {
-                       $arg = $parser->recursiveTagParse( $arg, $frame );
-                }
-        }
- 
-        /* // retrieve URL of image file substituting GeoGebra applet if Java ist not installed
+        // retrieve URL of image file substituting GeoGebra applet if Java ist not installed
         $imgBinary = isset($args['substimage']) ? htmlspecialchars(strip_tags($args['substimage'])) : '';
         if ($imgBinary=='') {
           $imgBinary = 'filenotfound.jpg';
         }
-        $imgFile = Image::newFromName($imgBinary);
+        $imgFile = wfLocalFile($imgBinary);
         if ($imgFile->exists())
         {
           $imgURL = $imgFile->getURL();
@@ -79,8 +73,8 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
           $noJavaText = $noJavaText . " height=" . $quot . htmlspecialchars(strip_tags($args['height'])) . $quot; // Add height value to tag
           $noJavaText = $noJavaText . " alt=" . $quot . "Image replacing GeoGebra applet" . $quot. " >". $CRLF;
           $noJavaText = $noJavaText . '<p>Please <a href="http://java.sun.com/getjava">install Java</a> to see a dynamic version of this image.</p>';
-        } */
- 
+        }
+		
         //Look for parameter 'useSignedJar'.
         $useSignedJar = isset($args['usesignedjar']) ? $args['usesignedjar'] : '';
         //Look for parameter 'useLocalJar'. Will be overwritten with 'true', if parameter 'filename is used'
@@ -114,7 +108,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
                 if ($ggbBinary == '') {
                   $ggbBinary = 'filenotfound.ggb';
                 }
-                $ggbFile = Image::newFromName($ggbBinary);
+                $ggbFile = wfLocalFile($ggbBinary);
                 if (!($ggbFile->exists()))
                 {
                   $error_message = "File not found: " . $ggbBinary;
@@ -156,6 +150,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
             $debug .= 'useLocal=true<br>' . $CRLF;
             # The following line is code from http://code.activestate.com/recipes/576595/   "A more reliable DOCUMENT_ROOT"
             $docroot = realpath((getenv('DOCUMENT_ROOT') && ereg('^'.preg_quote(realpath(getenv('DOCUMENT_ROOT'))), realpath(__FILE__))) ? getenv('DOCUMENT_ROOT') : str_replace(dirname(@$_SERVER['PHP_SELF']), '', str_replace(DIRECTORY_SEPARATOR, '/', dirname(__FILE__))));
+			# $docroot = $_SERVER['DOCUMENT_ROOT']; #ereg is deprecated and causes an error 
             $delta = substr(dirname(__FILE__), strlen($docroot));
             $codeBase = $wgServer . $delta;
             # replace backslash by slash
