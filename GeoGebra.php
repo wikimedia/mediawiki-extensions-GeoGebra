@@ -19,11 +19,12 @@ if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
 }
  
 $wgExtensionCredits['parserhook'][] = array(
-        'name'         => 'GeoGebra',
-        'author'       => 'Rudolf Grossmann',
-        'url'          => 'http://www.mediawiki.org/wiki/Extension:GeoGebra',
-        'description'  => 'Add [http://www.geogebra.org GeoGebra] applets to MediaWiki pages.',
-        'version'      => $ggb_version
+	'path'           => __FILE__,
+	'name'           => 'GeoGebra',
+	'author'         => 'Rudolf Grossmann',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:GeoGebra',
+	'descriptionmsg' => 'geogebra-desc',
+	'version'        => $ggb_version
 );
  
 function ggb_AppletSetup() {
