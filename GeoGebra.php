@@ -3,10 +3,10 @@
  * GeoGebra extension
  *
  * @author Rudolf Grossmann
- * @version 2.8a
+ * @version 2.8b
  */
  
-$ggb_version = "2.8a";
+$ggb_version = "2.8b";
  
 // This MediaWiki extension is based on the Java Applet extension by Phil Trasatti
 // see: http://www.mediawiki.org/wiki/Extension:Java_Applet
