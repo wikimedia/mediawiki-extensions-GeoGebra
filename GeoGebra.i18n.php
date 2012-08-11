@@ -38,11 +38,25 @@ $messages['gl'] = array(
 	'geogebra-desc' => 'Engade applets de [http://www.geogebra.org GeoGebra] ás páxinas',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'geogebra-desc' => 'הוספת יישומוני [http://www.geogebra.org GeoGebra] לדפי',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
 	'geogebra-desc' => 'Aplety [http://www.geogebra.org GeoGebra] stronam přidać',
+);
+
+/** Italian (italiano)
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'geogebra-desc' => 'Aggiunge applet di [http://www.geogebra.org GeoGebra] alle pagine',
 );
 
 /** Macedonian (македонски)
