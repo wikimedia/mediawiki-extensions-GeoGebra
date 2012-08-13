@@ -66,6 +66,13 @@ $messages['mk'] = array(
 	'geogebra-desc' => 'Додај прилози од [http://www.geogebra.org GeoGebra] во страниците',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'geogebra-desc' => "[http://www.geogebra.org GeoGebra]-applets toevoegen aan pagina's",
+);
+
 /** Portuguese (português)
  * @author Helder.wiki
  */
