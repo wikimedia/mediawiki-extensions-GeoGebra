@@ -31,6 +31,13 @@ $messages['de'] = array(
 	'geogebra-desc' => 'Ermöglicht die Nutzung von [http://www.geogebra.org GeoGebra]-Applets auf Seiten',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'geogebra-desc' => 'Aplety [http://www.geogebra.org GeoGebra] bokam pśidaś',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
