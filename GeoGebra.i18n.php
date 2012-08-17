@@ -23,6 +23,13 @@ $messages['qqq'] = array(
 	'geogebra-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'geogebra-desc' => 'Amestar les miniaplicaciones [http://www.geogebra.org GeoGebra] nes páxines',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -78,6 +85,13 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'geogebra-desc' => "[http://www.geogebra.org GeoGebra]-applets toevoegen aan pagina's",
+);
+
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'geogebra-desc' => 'Dodaje applety [http://www.geogebra.org GeoGebra] na stronach',
 );
 
 /** Portuguese (português)
