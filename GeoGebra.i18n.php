@@ -73,6 +73,13 @@ $messages['it'] = array(
 	'geogebra-desc' => 'Aggiunge applet di [http://www.geogebra.org GeoGebra] alle pagine',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'geogebra-desc' => "Setzt d'[http://www.geogebra.org GeoGebra]-Applets op Säiten derbäi",
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
