@@ -45,6 +45,13 @@ $messages['dsb'] = array(
 	'geogebra-desc' => 'Aplety [http://www.geogebra.org GeoGebra] bokam pśidaś',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'geogebra-desc' => 'Añade applets de [http://www.geogebra.org GeoGebra] a las páginas',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
