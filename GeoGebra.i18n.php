@@ -80,6 +80,13 @@ $messages['it'] = array(
 	'geogebra-desc' => 'Aggiunge applet di [http://www.geogebra.org GeoGebra] alle pagine',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'geogebra-desc' => 'ページに [http://www.geogebra.org GeoGebra] アプレットを追加する',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
