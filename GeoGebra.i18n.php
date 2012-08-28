@@ -115,6 +115,13 @@ $messages['pl'] = array(
 	'geogebra-desc' => 'Dodaje applety [http://www.geogebra.org GeoGebra] na stronach',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'geogebra-desc' => "Gionta l'applet [http://www.geogebra.org GeoGebra] a le pagine",
+);
+
 /** Portuguese (português)
  * @author Helder.wiki
  */
