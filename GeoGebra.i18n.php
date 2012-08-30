@@ -116,10 +116,11 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'geogebra-desc' => "Gionta l'applet [http://www.geogebra.org GeoGebra] a le pagine",
+	'geogebra-desc' => "Gionté l'applet [http://www.geogebra.org GeoGebra] a le pàgine",
 );
 
 /** Portuguese (português)
