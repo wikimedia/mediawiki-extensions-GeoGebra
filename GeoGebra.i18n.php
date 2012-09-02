@@ -87,6 +87,13 @@ $messages['ja'] = array(
 	'geogebra-desc' => 'ページに [http://www.geogebra.org GeoGebra] アプレットを追加する',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'geogebra-desc' => '문서에 [http://www.geogebra.org GeoGebra] 애플릿 추가',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
