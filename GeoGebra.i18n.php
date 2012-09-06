@@ -52,6 +52,13 @@ $messages['es'] = array(
 	'geogebra-desc' => 'Añade applets de [http://www.geogebra.org GeoGebra] a las páginas',
 );
 
+/** French (français)
+ * @author Sherbrooke
+ */
+$messages['fr'] = array(
+	'geogebra-desc' => 'Ajouter des applets [http://www.geogebra.org GeoGebra] aux pages',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
