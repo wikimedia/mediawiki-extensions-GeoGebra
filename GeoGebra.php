@@ -3,20 +3,15 @@
  * GeoGebra extension
  *
  * @author Rudolf Grossmann
- * @version 2.8c
+ * @version 2.9a
  */
  
-$ggb_version = "2.8c";
+$ggb_version = "2.9a";
  
 // This MediaWiki extension is based on the Java Applet extension by Phil Trasatti
 // see: http://www.mediawiki.org/wiki/Extension:Java_Applet
  
-//Avoid unstubbing $wgParser too early on modern (1.12+) MW versions, as per r35980
-if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
-        $wgHooks['ParserFirstCallInit'][] = 'ggb_AppletSetup';
-} else {
-        $wgExtensionFunctions[] = 'ggb_AppletSetup';
-}
+$wgHooks['ParserFirstCallInit'][] = 'ggb_AppletSetup';
 $wgExtensionMessagesFiles['GeoGebra'] = dirname( __FILE__ ) . '/GeoGebra.i18n.php';
 
 $wgExtensionCredits['parserhook'][] = array(
@@ -54,7 +49,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
  
         // Special parameters, not for parameter (name - value) tags. Use lowercase for sake of comparison!
         $special_parameters = array('width', 'height', 'uselocaljar', 'usesignedjar', 'substimage', 'filename', 'ggbbase64', 'version', 'debug'); 
-        $noJavaText = 'Please <a href="http://java.sun.com/getjava">install Java</a> to use this page.'; 
+        $noJavaText = wfMessage( 'geogebra-nojava', '[http://java.com Java]' )->parse();
  
         // retrieve URL of image file substituting GeoGebra applet if Java ist not installed
         $imgBinary = isset($args['substimage']) ? htmlspecialchars(strip_tags($args['substimage'])) : '';
@@ -73,6 +68,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
           $noJavaText = "<img src=". $quot . $imgURL . $quot;
           $noJavaText = $noJavaText . " width=" . $quot . htmlspecialchars(strip_tags($args['width'])) . $quot; // Add width value to tag
           $noJavaText = $noJavaText . " height=" . $quot . htmlspecialchars(strip_tags($args['height'])) . $quot; // Add height value to tag
+		  // TODO: i18n
           $noJavaText = $noJavaText . " alt=" . $quot . "Image replacing GeoGebra applet" . $quot. " >". $CRLF;
           $noJavaText = $noJavaText . '<p>Please <a href="http://java.sun.com/getjava">install Java</a> to see a dynamic version of this image.</p>';
         }
@@ -86,11 +82,11 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
         // Look for required parameters width, height, ggbBase64 or filename
         if( !(isset( $args['width'] ) ) )
         {
-          $error_message = "Missing parameter 'width'.";
+            $error_message = wfMessage( 'geogebra-missing-parameter' )->escaped();
         } else {
           if( !(isset( $args['height'] ) ) )
           {
-            $error_message = "Missing parameter 'height'.";
+            $error_message = wfMessage( 'geogebra-missing-parameter' )->escaped();
           } else {
             if( isset( $args['ggbbase64'] ) )
             {
@@ -103,7 +99,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
               // No parameter ' ggbBase64'. Parameter 'filename' necessary
               if( !(isset( $args['filename'] ) ) )
               {
-                $error_message = "No parameter 'ggbBase64' or 'filename'.";
+					$error_message = wfMessage( 'geogebra-missing-parameter' )->escaped();
               } else {
                 // retrieve URL of *.ggb file
                 $ggbBinary = htmlspecialchars(strip_tags($args['filename']));
@@ -113,7 +109,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
                 $ggbFile = wfLocalFile($ggbBinary);
                 if (!($ggbFile->exists()))
                 {
-                  $error_message = "File not found: " . $ggbBinary;
+				  $error = wfMessage( 'geogebra-file-not-found' )->rawParams( $ggbBinary )->escaped();
                 }
                 else
                 {
@@ -193,7 +189,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
             $output .= $noJavaText . $CRLF; // Message if Java is not installed
             $output .= "</applet>" . $CRLF; // The closing applet tag
         } else {
-            $output = "<p>Error in MediaWiki extension (GeoGebra.php): <em>" . $error_message. "</em></p>" . $CRLF;
+           $output = wfMessage( 'geogebra-error' )->rawParams( $error_message )->parseAsBlock() . $CRLF;
         }
         if ($printDebug == 'true') {
            $output .= '<p>' . $debug . '</p>' . $CRLF;
