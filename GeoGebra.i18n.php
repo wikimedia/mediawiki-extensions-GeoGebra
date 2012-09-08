@@ -84,8 +84,8 @@ $messages['es'] = array(
 );
 
 /** French (français)
- * @author Sherbrooke
  * @author Cquoi
+ * @author Sherbrooke
  * @author Tititou36
  */
 $messages['fr'] = array(
@@ -204,6 +204,13 @@ $messages['pms'] = array(
 	'geogebra-desc' => "Gionté l'applet [http://www.geogebra.org GeoGebra] a le pàgine",
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'geogebra-nojava' => 'د دې مخ کارولو لپاره  $1 نصبه کړۍ.',
+);
+
 /** Portuguese (português)
  * @author Helder.wiki
  */
@@ -216,13 +223,6 @@ $messages['pt'] = array(
  */
 $messages['pt-br'] = array(
 	'geogebra-desc' => 'Acrescenta miniaplicativos do [http://www.geogebra.org GeoGebra] às páginas',
-);
-
-/** Pashto (پښتو)
- * @author Ahmed-Najib-Biabani-Ibrahimkhel
- */
-$messages['ps'] = array(
-	'geogebra-nojava' => 'د دې مخ کارولو لپاره  $1 نصبه کړۍ.',
 );
 
 /** Tagalog (Tagalog)
