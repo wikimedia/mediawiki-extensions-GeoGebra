@@ -181,11 +181,13 @@ $messages['mt'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'geogebra-desc' => "[http://www.geogebra.org GeoGebra]-applets toevoegen aan pagina's",
 	'geogebra-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
+	'geogebra-file-not-found' => 'Bestand $1 is niet gevonden.',
 );
 
 /** Polish (polski)
