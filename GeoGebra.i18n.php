@@ -111,8 +111,11 @@ $messages['gl'] = array(
  * @author Amire80
  */
 $messages['he'] = array(
-	'geogebra-desc' => 'הוספת יישומוני [http://www.geogebra.org GeoGebra] לדפי',
+	'geogebra-desc' => 'הוספת יישומוני [http://www.geogebra.org GeoGebra] לדפים',
 	'geogebra-nojava' => 'נא להתקין $1 כדי להשתמש בדף הזה.',
+	'geogebra-missing-parameter' => 'פרמטר חסר (width&lrm;, height, או ggbBase64).',
+	'geogebra-file-not-found' => 'הקובץ $1 לא נמצא.',
+	'geogebra-error' => 'שגיאה בהרצת הרחבת מדיה־ויקי GeoGebra&lrm;: <em>$1</em>',
 );
 
 /** Upper Sorbian (hornjoserbsce)
