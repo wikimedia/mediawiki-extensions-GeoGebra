@@ -158,6 +158,17 @@ $messages['ko'] = array(
 	'geogebra-desc' => '문서에 [http://www.geogebra.org GeoGebra] 애플릿 추가',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'geogebra-desc' => 'Donn [http://www.geogebra.org GeoGebra] Applets en Sigge eren.',
+	'geogebra-nojava' => 'Donn $1 enschtallere, öm heh di Sigg bruche ze künne.',
+	'geogebra-missing-parameter' => 'Ene Parrameeter fählt (<code lang="en">width</code> udder <code lang="en">height</code> udder <code lang="en">ggbBase64</code>).',
+	'geogebra-file-not-found' => 'Di Dattei „$1“ ham_mer nit jefonge.',
+	'geogebra-error' => 'Ene Fähler es opjetrodde em MediaWiki-Zohsazprojramm GeoGebra: <em>$1</em>',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
