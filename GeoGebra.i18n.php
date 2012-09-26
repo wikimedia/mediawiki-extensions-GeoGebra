@@ -131,12 +131,13 @@ $messages['hsb'] = array(
 
 /** Italian (italiano)
  * @author Darth Kule
+ * @author Linedwell
  */
 $messages['it'] = array(
 	'geogebra-desc' => 'Aggiunge applet di [http://www.geogebra.org GeoGebra] alle pagine',
 	'geogebra-nojava' => 'È necessario installare $1 per il funzionamento di questa pagina.',
 	'geogebra-missing-parameter' => 'Parametro mancante (width, height o ggbBase64).',
-	'geogebra-file-not-found' => 'File $1 non trovato',
+	'geogebra-file-not-found' => 'File $1 non trovato.',
 	'geogebra-error' => "Errore nell'estensione MediaWiki GeoGebra: <em>$1</em>",
 );
 
@@ -228,7 +229,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'geogebra-nojava' => 'د دې مخ کارولو لپاره  $1 نصبه کړۍ.',
+	'geogebra-nojava' => 'د دې مخ کارولو لپاره  $1 نصب کړۍ.',
 );
 
 /** Portuguese (português)
