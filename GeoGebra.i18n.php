@@ -54,7 +54,7 @@ $messages['de'] = array(
 	'geogebra-error' => 'Bei der MediaWiki-Programmerweiterung GeoGebra ist ein Fehler aufgetreten: <em>$1</em>',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
