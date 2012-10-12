@@ -172,11 +172,12 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Rudolf.Grossmann
  */
 $messages['lb'] = array(
 	'geogebra-desc' => "Setzt d'[http://www.geogebra.org GeoGebra]-Applets op Säiten derbäi",
 	'geogebra-nojava' => 'Installéiert w.e.g. $1 fir dës Säit ze benotzen.',
-	'geogebra-missing-parameter' => 'Et feelt e Parameter (Breet oder Héicht oder ggbBase64)',
+	'geogebra-missing-parameter' => "Et feelt e Parameter ('width' oder 'height' oder 'ggbBase64').",
 	'geogebra-file-not-found' => 'De Fichier $1 gouf net fonnt.',
 	'geogebra-error' => 'Feeler an der MediaWiki-Erweiderung GeoGebra: <em>$1</em>',
 );
