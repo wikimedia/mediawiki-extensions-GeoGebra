@@ -253,4 +253,3 @@ $messages['pt-br'] = array(
 $messages['tl'] = array(
 	'geogebra-desc' => 'Idagdag ang mga applet ng [http://www.geogebra.org GeoGebra] sa mga pahina',
 );
-
