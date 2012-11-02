@@ -253,3 +253,14 @@ $messages['pt-br'] = array(
 $messages['tl'] = array(
 	'geogebra-desc' => 'Idagdag ang mga applet ng [http://www.geogebra.org GeoGebra] sa mga pahina',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'geogebra-desc' => '向页面添加 [http://www.geogebra.org GeoGebra] 小程序',
+	'geogebra-nojava' => '请安装 $1 以使用此页。',
+	'geogebra-missing-parameter' => '缺少参数（宽度或高度或 ggbBase64）。',
+	'geogebra-file-not-found' => '找不到文件 $1。',
+	'geogebra-error' => 'MediaWiki扩展GeoGebra中的错误：<em>$1</em>',
+);
