@@ -207,7 +207,9 @@ $messages['mt'] = array(
 $messages['nl'] = array(
 	'geogebra-desc' => "[http://www.geogebra.org GeoGebra]-applets toevoegen aan pagina's",
 	'geogebra-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
+	'geogebra-missing-parameter' => 'Er mist een parameter ("width", "height" of "ggbBase64").',
 	'geogebra-file-not-found' => 'Bestand $1 is niet gevonden.',
+	'geogebra-error' => 'Fout in de MediaWiki-uitbreiding GeoGebra: <em>$1</em>',
 );
 
 /** Polish (polski)
