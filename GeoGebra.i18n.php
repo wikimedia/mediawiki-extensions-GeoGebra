@@ -83,6 +83,17 @@ $messages['es'] = array(
 	'geogebra-error' => 'Error en la extensión GeoGebra de MediaWiki: <em>$1</em>',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'geogebra-desc' => 'Lisää [http://www.geogebra.org GeoGebra-sovelman] sivuille',
+	'geogebra-nojava' => 'Asenna $1, jos haluat käyttää tätä sivua.',
+	'geogebra-missing-parameter' => 'Puuttuva parametri ("width" tai "height" tai "ggbBase64").',
+	'geogebra-file-not-found' => 'Tiedostoa $1 ei löytynyt.',
+	'geogebra-error' => 'Virhe Media-Wikin GeoGebra-laajennuksessa: <em>$1</em>',
+);
+
 /** French (français)
  * @author Cquoi
  * @author Sherbrooke
