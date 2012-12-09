@@ -271,6 +271,17 @@ $messages['tl'] = array(
 	'geogebra-desc' => 'Idagdag ang mga applet ng [http://www.geogebra.org GeoGebra] sa mga pahina',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'geogebra-desc' => 'Додає аплети [http://www.geogebra.org GeoGebra] на сторінки',
+	'geogebra-nojava' => 'Будь ласка, встановіть $1 для того, щоб використовувати цю сторінку.',
+	'geogebra-missing-parameter' => 'Пропущений параметр (ширина або висота або ggbBase64).',
+	'geogebra-file-not-found' => 'Файл $1 не знайдено.',
+	'geogebra-error' => 'Помилка у розширенні MediaWiki GeoGebra: <em>$1</em>',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
