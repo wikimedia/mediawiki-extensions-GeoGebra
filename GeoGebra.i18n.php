@@ -23,9 +23,10 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Garrett Brown
  * @author Kghbln
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'geogebra-desc' => '{{desc}}',
+	'geogebra-desc' => '{{desc|name=GeoGebra|url=http://www.mediawiki.org/wiki/Extension:GeoGebra}}',
 	'geogebra-nojava' => 'Error message if Java not installed with link where to get from.',
 	'geogebra-missing-parameter' => 'Error message if parameter width or height or ggbBase64 missing.
 
