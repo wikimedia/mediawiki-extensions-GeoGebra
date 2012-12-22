@@ -40,6 +40,10 @@ $messages['qqq'] = array(
  */
 $messages['ast'] = array(
 	'geogebra-desc' => 'Amestar les miniaplicaciones [http://www.geogebra.org GeoGebra] nes páxines',
+	'geogebra-nojava' => 'Instala $1 pa usar esta páxina.',
+	'geogebra-missing-parameter' => 'Falta un parámetru ("width" o "height" o "ggbBase64").',
+	'geogebra-file-not-found' => "Nun s'alcontró el ficheru $1",
+	'geogebra-error' => 'Error na estensión GeoGebra de MediaWiki: <em>$1</em>',
 );
 
 /** German (Deutsch)
@@ -82,6 +86,13 @@ $messages['es'] = array(
 	'geogebra-missing-parameter' => 'Falta un parámetro ("width" o "height" o "ggbBase64").',
 	'geogebra-file-not-found' => 'No se encuentra el archivo $1.',
 	'geogebra-error' => 'Error en la extensión GeoGebra de MediaWiki: <em>$1</em>',
+);
+
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'geogebra-file-not-found' => 'پرونده $1 یافت نشد.',
 );
 
 /** Finnish (suomi)
@@ -139,6 +150,17 @@ $messages['hsb'] = array(
 	'geogebra-missing-parameter' => 'Falowacy parameter ("width", "height" abo "ggbBase64").',
 	'geogebra-file-not-found' => 'Dataja $1 njeje so namakała.',
 	'geogebra-error' => 'Zmylk w rozšěrjenju MediaWiki GeoGebra: <em>$1</em>',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'geogebra-desc' => 'Menambahkan applet [http://www.geogebra.org GeoGebra] ke halaman',
+	'geogebra-nojava' => 'Mohon instal $1 untuk memakai halaman ini.',
+	'geogebra-missing-parameter' => 'Parameter hilang (width atau height atau ggbBase64).',
+	'geogebra-file-not-found' => 'Berkas $1 tidak ditemukan.',
+	'geogebra-error' => 'Kesalahan pada ekstensi MediaWiki GeoGebra: <em>$1</em>',
 );
 
 /** Italian (italiano)
@@ -263,6 +285,13 @@ $messages['pt'] = array(
  */
 $messages['pt-br'] = array(
 	'geogebra-desc' => 'Acrescenta miniaplicativos do [http://www.geogebra.org GeoGebra] às páginas',
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'geogebra-file-not-found' => 'Fișierul $1 nu a fost găsit.',
 );
 
 /** Tagalog (Tagalog)
