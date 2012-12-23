@@ -77,6 +77,13 @@ $messages['dsb'] = array(
 	'geogebra-error' => 'Zmólka w rozšyrjenju MediaWiki GeoGebra: <em>$1</em>',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'geogebra-file-not-found' => 'Dosiero $1 ne troviĝis.',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
@@ -236,6 +243,10 @@ $messages['mk'] = array(
  */
 $messages['mt'] = array(
 	'geogebra-desc' => "Iżżid [http://www.geogebra.org GeoGebra] ''applets'' lill-paġni",
+	'geogebra-nojava' => "Jekk jogħġbok installa $1 sabiex tuża' din il-paġna.",
+	'geogebra-missing-parameter' => 'Parametru nieqes (width, height jew ggbBase64).',
+	'geogebra-file-not-found' => 'Il-fajl $1 ma nstabx.',
+	'geogebra-error' => 'Żball fl-estensjoni MediaWiki GeoGebra: <em>$1</em>',
 );
 
 /** Dutch (Nederlands)
@@ -292,6 +303,13 @@ $messages['pt-br'] = array(
  */
 $messages['ro'] = array(
 	'geogebra-file-not-found' => 'Fișierul $1 nu a fost găsit.',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'geogebra-file-not-found' => '$1 ගොනුව හමු නොවුණි.',
 );
 
 /** Tagalog (Tagalog)
