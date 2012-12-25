@@ -95,6 +95,14 @@ $messages['es'] = array(
 	'geogebra-error' => 'Error en la extensión GeoGebra de MediaWiki: <em>$1</em>',
 );
 
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'geogebra-nojava' => 'Installi palun $1, et seda lehekülge kasutada.',
+	'geogebra-file-not-found' => 'Faili $1 ei leidu.',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
@@ -215,6 +223,13 @@ $messages['ksh'] = array(
 	'geogebra-error' => 'Ene Fähler es opjetrodde em MediaWiki-Zohsazprojramm GeoGebra: <em>$1</em>',
 );
 
+/** Kirghiz (Кыргызча)
+ * @author Growingup
+ */
+$messages['ky'] = array(
+	'geogebra-file-not-found' => '$1 файлы табылган жок.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  * @author Rudolf.Grossmann
@@ -275,6 +290,10 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'geogebra-desc' => "Gionté l'applet [http://www.geogebra.org GeoGebra] a le pàgine",
+	'geogebra-nojava' => "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
+	'geogebra-missing-parameter' => 'Paràmetr mancant (larghëssa o autëssa o ggbBase64).',
+	'geogebra-file-not-found' => 'Archivi $1 pa trovà.',
+	'geogebra-error' => "Eror ant l'estension GeoGebra MediaWiki: <em>$1</em>",
 );
 
 /** Pashto (پښتو)
