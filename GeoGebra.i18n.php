@@ -331,6 +331,13 @@ $messages['si'] = array(
 	'geogebra-file-not-found' => '$1 ගොනුව හමු නොවුණි.',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'geogebra-file-not-found' => 'Filen $1 hittades inte.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
