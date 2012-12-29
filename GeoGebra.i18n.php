@@ -77,6 +77,14 @@ $messages['dsb'] = array(
 	'geogebra-error' => 'Zmólka w rozšyrjenju MediaWiki GeoGebra: <em>$1</em>',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'geogebra-nojava' => 'Παρακαλώ εγκαταστήστε το $1 για να χρησιμοποιήσετε αυτήν τη σελίδα.',
+	'geogebra-file-not-found' => 'Το αρχείο $1 δεν βρέθηκε.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
