@@ -142,6 +142,13 @@ $messages['fr'] = array(
 	'geogebra-error' => "Erreur dans l'extension  MediaWiki GeoGebra : <em>$1</em>",
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'geogebra-file-not-found' => 'Fichiér $1 pas trovâ.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
