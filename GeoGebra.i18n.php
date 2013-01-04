@@ -275,6 +275,14 @@ $messages['mk'] = array(
 	'geogebra-error' => 'Грешка во додатокот GeoGebra: <em>$1</em>',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'geogebra-file-not-found' => 'Fail $1 tidak dijumpai.',
+	'geogebra-error' => 'Ralat pada sambungan MediaWiki GeoGebra: <em>$1</em>',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
