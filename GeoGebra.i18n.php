@@ -354,6 +354,15 @@ $messages['ro'] = array(
 	'geogebra-file-not-found' => 'Fișierul $1 nu a fost găsit.',
 );
 
+/** Russian (русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'geogebra-nojava' => 'Пожалуйста, установите $1, чтобы использовать эту страницу.',
+	'geogebra-missing-parameter' => 'Отсутствует параметр (ширина или высота, или ggbBase64).',
+	'geogebra-file-not-found' => 'Файл $1 не найден.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
