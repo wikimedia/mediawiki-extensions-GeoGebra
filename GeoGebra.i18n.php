@@ -46,6 +46,13 @@ $messages['ast'] = array(
 	'geogebra-error' => 'Error na estensión GeoGebra de MediaWiki: <em>$1</em>',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'geogebra-file-not-found' => "N'eo ket bet kavet ar restr $1.",
+);
+
 /** Czech (česky)
  * @author Vks
  */
