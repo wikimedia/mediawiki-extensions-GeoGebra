@@ -286,6 +286,9 @@ $messages['mk'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'geogebra-desc' => 'Menambahkan applet [http://www.geogebra.org GeoGebra] pada halaman',
+	'geogebra-nojava' => 'Sila pasang $1 untuk menggunakan halaman ini.',
+	'geogebra-missing-parameter' => 'Parameter tertinggal (width atau height atau ggbBase64).',
 	'geogebra-file-not-found' => 'Fail $1 tidak dijumpai.',
 	'geogebra-error' => 'Ralat pada sambungan MediaWiki GeoGebra: <em>$1</em>',
 );
@@ -359,6 +362,13 @@ $messages['pt-br'] = array(
  */
 $messages['ro'] = array(
 	'geogebra-file-not-found' => 'Fișierul $1 nu a fost găsit.',
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'geogebra-file-not-found' => 'File $1 non acchiate.',
 );
 
 /** Russian (русский)
