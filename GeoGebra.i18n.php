@@ -40,9 +40,9 @@ $messages['qqq'] = array(
  */
 $messages['ast'] = array(
 	'geogebra-desc' => 'Amestar les miniaplicaciones [http://www.geogebra.org GeoGebra] nes páxines',
-	'geogebra-nojava' => 'Instala $1 pa usar esta páxina.',
+	'geogebra-nojava' => 'Instale $1 pa usar esta páxina.',
 	'geogebra-missing-parameter' => 'Falta un parámetru ("width" o "height" o "ggbBase64").',
-	'geogebra-file-not-found' => "Nun s'alcontró el ficheru $1",
+	'geogebra-file-not-found' => "Nun s'alcontró el ficheru $1.",
 	'geogebra-error' => 'Error na estensión GeoGebra de MediaWiki: <em>$1</em>',
 );
 
