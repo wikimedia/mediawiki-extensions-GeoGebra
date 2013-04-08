@@ -368,6 +368,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'geogebra-nojava' => 'Pe piacere installe $1 pe ausà sta pàgene.',
 	'geogebra-file-not-found' => 'File $1 non acchiate.',
 );
 
