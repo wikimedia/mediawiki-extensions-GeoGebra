@@ -304,6 +304,16 @@ $messages['mt'] = array(
 	'geogebra-error' => 'Żball fl-estensjoni MediaWiki GeoGebra: <em>$1</em>',
 );
 
+/** Norwegian Bokmål (norsk bokmål)
+ */
+$messages['nb'] = array(
+	'geogebra-desc' => 'Legger til [http://www.geogebra.org GeoGebra]-miniprogrammer til sider',
+	'geogebra-nojava' => 'Installer $1 for å bruke denne siden.',
+	'geogebra-missing-parameter' => 'Manglende parameter ("width", "height" eller "ggbBase64").',
+	'geogebra-file-not-found' => 'Filen $1 ikke funnet.',
+	'geogebra-error' => 'Feil i MediaWiki-utvidelsen GeoGebra: <em>$1</em>',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
