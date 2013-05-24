@@ -378,8 +378,11 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'geogebra-desc' => 'Aggiunge [http://www.geogebra.org GeoGebra] applet a le pàggene',
 	'geogebra-nojava' => 'Pe piacere installe $1 pe ausà sta pàgene.',
+	'geogebra-missing-parameter' => 'Parametre mangande (larghezze o altezze o ggbBase64).',
 	'geogebra-file-not-found' => 'File $1 non acchiate.',
+	'geogebra-error' => "Errore jndr'à l'estenzione GeoGebra MediaUicchi: <em>$1</em>",
 );
 
 /** Russian (русский)
