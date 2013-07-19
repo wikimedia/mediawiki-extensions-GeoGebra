@@ -304,6 +304,13 @@ $messages['mt'] = array(
 	'geogebra-error' => 'Żball fl-estensjoni MediaWiki GeoGebra: <em>$1</em>',
 );
 
+/** Neapolitan (Nnapulitano)
+ * @author Chelin
+ */
+$messages['nap'] = array(
+	'geogebra-file-not-found' => 'File $1 nun trovato.',
+);
+
 /** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
