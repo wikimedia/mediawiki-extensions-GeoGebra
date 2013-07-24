@@ -416,6 +416,7 @@ $messages['sv'] = array(
 	'geogebra-nojava' => 'Var god installera $1 för att använda denna sida.',
 	'geogebra-missing-parameter' => 'Saknad parameter (bredd eller höjd eller ggbBase64).',
 	'geogebra-file-not-found' => 'Filen $1 hittades inte.',
+	'geogebra-error' => 'Fel i MediaWiki-tilläggsfunktionen GeoGebra: <em>$1</em>',
 );
 
 /** Tagalog (Tagalog)
