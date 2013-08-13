@@ -31,7 +31,8 @@ $messages['qqq'] = array(
 	'geogebra-missing-parameter' => 'Error message if parameter width or height or ggbBase64 missing.
 
 {{doc-important|Do not translate the parameters "width", "height" or "ggbBase64".}}',
-	'geogebra-file-not-found' => 'Error message if file not found.',
+	'geogebra-file-not-found' => 'Error message if file not found.
+{{Identical|File not found}}',
 	'geogebra-error' => 'General part of error message.',
 );
 
