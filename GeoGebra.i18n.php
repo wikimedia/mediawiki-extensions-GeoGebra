@@ -27,13 +27,18 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'geogebra-desc' => '{{desc|name=GeoGebra|url=http://www.mediawiki.org/wiki/Extension:GeoGebra}}',
-	'geogebra-nojava' => 'Error message if Java not installed with link where to get from.',
+	'geogebra-nojava' => 'Error message if Java not installed with link where to get from.
+
+Parameters:
+* $1 - "Java" (with link which points to http://java.com); hard-coded',
 	'geogebra-missing-parameter' => 'Error message if parameter width or height or ggbBase64 missing.
 
 {{doc-important|Do not translate the parameters "width", "height" or "ggbBase64".}}',
-	'geogebra-file-not-found' => 'Error message if file not found.
+	'geogebra-file-not-found' => 'Error message if file not found. Parameters:
+* $1 - Geogebra (ggb) filename; can be "filenotfound.ggb"
 {{Identical|File not found}}',
-	'geogebra-error' => 'General part of error message.',
+	'geogebra-error' => 'General part of error message. Parameters:
+* $1 - error message',
 );
 
 /** Asturian (asturianu)
