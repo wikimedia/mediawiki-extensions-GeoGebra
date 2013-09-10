@@ -374,10 +374,15 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Helder.wiki
  */
 $messages['pt-br'] = array(
 	'geogebra-desc' => 'Acrescenta miniaplicativos do [http://www.geogebra.org GeoGebra] às páginas',
+	'geogebra-nojava' => 'Por favor, instale $1 para utilizar esta página.',
+	'geogebra-missing-parameter' => 'Parâmetro em falta (width ou height ou ggbBase64).',
+	'geogebra-file-not-found' => 'Arquivo $1 não encontrado.',
+	'geogebra-error' => 'Erro na extensão GeoGebra: <em>$1</em>',
 );
 
 /** Romanian (română)
