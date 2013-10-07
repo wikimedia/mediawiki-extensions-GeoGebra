@@ -416,11 +416,14 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author DCamer
+ * @author Okras
  */
 $messages['ru'] = array(
+	'geogebra-desc' => 'Добавляет на страницы апплеты [http://www.geogebra.org GeoGebra]',
 	'geogebra-nojava' => 'Пожалуйста, установите $1, чтобы использовать эту страницу.',
 	'geogebra-missing-parameter' => 'Отсутствует параметр (ширина или высота, или ggbBase64).',
 	'geogebra-file-not-found' => 'Файл $1 не найден.',
+	'geogebra-error' => 'Ошибка в расширении MediaWiki GeoGebra: <em>$1</em>',
 );
 
 /** Sinhala (සිංහල)
