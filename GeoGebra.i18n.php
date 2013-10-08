@@ -269,7 +269,7 @@ $messages['ksh'] = array(
 	'geogebra-error' => 'Ene Fähler es opjetrodde em MediaWiki-Zohsazprojramm GeoGebra: <em>$1</em>',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  */
 $messages['ky'] = array(
@@ -321,7 +321,7 @@ $messages['mt'] = array(
 	'geogebra-error' => 'Żball fl-estensjoni MediaWiki GeoGebra: <em>$1</em>',
 );
 
-/** Neapolitan (Nnapulitano)
+/** Neapolitan (Napulitano)
  * @author Chelin
  */
 $messages['nap'] = array(
