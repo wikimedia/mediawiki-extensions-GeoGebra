@@ -59,7 +59,7 @@ $messages['br'] = array(
 	'geogebra-file-not-found' => "N'eo ket bet kavet ar restr $1.",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
@@ -345,7 +345,7 @@ $messages['nb'] = array(
 $messages['nl'] = array(
 	'geogebra-desc' => "[http://www.geogebra.org GeoGebra]-applets toevoegen aan pagina's",
 	'geogebra-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
-	'geogebra-missing-parameter' => 'Er mist een parameter ("width", "height" of "ggbBase64").',
+	'geogebra-missing-parameter' => 'Er ontbreekt een parameter ("width", "height" of "ggbBase64").',
 	'geogebra-file-not-found' => 'Bestand $1 is niet gevonden.',
 	'geogebra-error' => 'Fout in de MediaWiki-uitbreiding GeoGebra: <em>$1</em>',
 );
