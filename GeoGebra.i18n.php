@@ -279,9 +279,10 @@ $messages['ky'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  * @author Rudolf.Grossmann
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'geogebra-desc' => "Setzt d'[http://www.geogebra.org GeoGebra]-Applets op Säiten derbäi",
+	'geogebra-desc' => "Setzt d'[http://www.geogebra.org GeoGebra]-Applets op Säiten dobäi",
 	'geogebra-nojava' => 'Installéiert w.e.g. $1 fir dës Säit ze benotzen.',
 	'geogebra-missing-parameter' => "Et feelt e Parameter ('width' oder 'height' oder 'ggbBase64').",
 	'geogebra-file-not-found' => 'De Fichier $1 gouf net fonnt.',
@@ -435,9 +436,11 @@ $messages['si'] = array(
 
 /** Swedish (svenska)
  * @author Jopparn
+ * @author Tobulos1
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'geogebra-desc' => 'Lägger till [http://www.geogebra.org GeoGebra]-applets till sidan',
 	'geogebra-nojava' => 'Var god installera $1 för att använda denna sida.',
 	'geogebra-missing-parameter' => 'Saknad parameter (bredd eller höjd eller ggbBase64).',
 	'geogebra-file-not-found' => 'Filen $1 hittades inte.',
