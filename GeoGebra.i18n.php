@@ -299,7 +299,7 @@ $messages['lb'] = array(
  */
 $messages['mk'] = array(
 	'geogebra-desc' => 'Додај прилози од [http://www.geogebra.org GeoGebra] во страниците',
-	'geogebra-nojava' => 'Инсталирајте $1 за да можете да ја користите страницава.',
+	'geogebra-nojava' => 'Воспоставете $1 за да можете да ја користите страницава.',
 	'geogebra-missing-parameter' => 'Недостасува параметар (width или height или ggbBase64).',
 	'geogebra-file-not-found' => 'Податотеката $1 не е пронајдена.',
 	'geogebra-error' => 'Грешка во додатокот GeoGebra: <em>$1</em>',
