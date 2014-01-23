@@ -53,10 +53,14 @@ $messages['ast'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
+	'geogebra-nojava' => 'Stailhit $1, mar plij, evit implijout ar bajenn-mañ.',
+	'geogebra-missing-parameter' => 'Arventenn diank (ledander, uhelder pe ggbBase64).',
 	'geogebra-file-not-found' => "N'eo ket bet kavet ar restr $1.",
+	'geogebra-error' => 'Fazi en astenn MediaWiki GeoGebra : <em>$1</em>',
 );
 
 /** Czech (čeština)
