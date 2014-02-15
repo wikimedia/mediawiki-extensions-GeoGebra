@@ -362,10 +362,12 @@ $messages['nl'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Chrumps
  */
 $messages['pl'] = array(
 	'geogebra-desc' => 'Dodaje applety [http://www.geogebra.org GeoGebra] na stronach',
 	'geogebra-nojava' => "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
+	'geogebra-file-not-found' => 'Nie odnaleziono pliku $1.',
 );
 
 /** Piedmontese (Piemontèis)
