@@ -486,3 +486,14 @@ $messages['zh-hans'] = array(
 	'geogebra-file-not-found' => '找不到文件 $1。',
 	'geogebra-error' => 'MediaWiki扩展GeoGebra中的错误：<em>$1</em>',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'geogebra-desc' => '於頁面中加入[http://www.geogebra.org GeoGebra]小程式',
+	'geogebra-nojava' => '請安裝$1以使用此頁面。',
+	'geogebra-missing-parameter' => '缺少參數（寬度、高度或ggbBase64）。',
+	'geogebra-file-not-found' => '檔案$1未找到。',
+	'geogebra-error' => 'GeoGebra MediaWiki拓展錯誤：<em>$1</em>',
+);
