@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cquoi",
+            "Sherbrooke",
+            "Tititou36"
+        ]
+    },
+    "geogebra-desc": "Ajouter des applets [http://www.geogebra.org GeoGebra] aux pages",
+    "geogebra-nojava": "Vous devez installer $1 pour utiliser cette page.",
+    "geogebra-missing-parameter": "Paramètre manquant (width or height or ggbBase64).",
+    "geogebra-file-not-found": "Fichier  $1  introuvable.",
+    "geogebra-error": "Erreur dans l'extension  MediaWiki GeoGebra : <em>$1</em>"
+}

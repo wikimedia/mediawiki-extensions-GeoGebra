@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Farras"
+        ]
+    },
+    "geogebra-desc": "Menambahkan applet [http://www.geogebra.org GeoGebra] ke halaman",
+    "geogebra-nojava": "Mohon instal $1 untuk memakai halaman ini.",
+    "geogebra-missing-parameter": "Parameter hilang (width atau height atau ggbBase64).",
+    "geogebra-file-not-found": "Berkas $1 tidak ditemukan.",
+    "geogebra-error": "Kesalahan pada ekstensi MediaWiki GeoGebra: <em>$1</em>"
+}

@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "geogebra-desc": "Aplety [http://www.geogebra.org GeoGebra] bokam pśidaś",
+    "geogebra-nojava": "Pšosym instalěruj $1, aby toś ten bok wužywał.",
+    "geogebra-missing-parameter": "Felujucy parameter (\"width\", \"height\" abo \"ggbBase64\").",
+    "geogebra-file-not-found": "Dataja $1 njejo se namakała.",
+    "geogebra-error": "Zmólka w rozšyrjenju MediaWiki GeoGebra: <em>$1</em>"
+}

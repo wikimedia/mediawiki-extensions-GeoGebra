@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Borichèt",
+            "Dragonòt"
+        ]
+    },
+    "geogebra-desc": "Gionté l'applet [http://www.geogebra.org GeoGebra] a le pàgine",
+    "geogebra-nojava": "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
+    "geogebra-missing-parameter": "Paràmetr mancant (larghëssa o autëssa o ggbBase64).",
+    "geogebra-file-not-found": "Archivi $1 pa trovà.",
+    "geogebra-error": "Eror ant l'estension GeoGebra MediaWiki: <em>$1</em>"
+}

@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln",
+            "Metalhead64",
+            "Rudolf Großmann"
+        ]
+    },
+    "geogebra-desc": "Ermöglicht die Nutzung von [http://www.geogebra.org GeoGebra]-Applets auf Seiten",
+    "geogebra-nojava": "Bitte installiere $1, um diese Seite nutzen zu können.",
+    "geogebra-missing-parameter": "Ein Parameter wurde nicht angegeben und fehlt daher („width“, „height“ oder „ggbBase64“).",
+    "geogebra-file-not-found": "Die Datei $1 wurde nicht gefunden.",
+    "geogebra-error": "Bei der MediaWiki-Programmerweiterung GeoGebra ist ein Fehler aufgetreten: <em>$1</em>"
+}

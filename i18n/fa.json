@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armin1392",
+            "Mjbmr"
+        ]
+    },
+    "geogebra-desc": "افزودن برنامه‌های [http://www.geogebra.org GeoGebra] به صفحات",
+    "geogebra-nojava": "لطفاً $1 را برای استفاده از این صفحه نصب کنید",
+    "geogebra-missing-parameter": "گم‌شدن پارامتر (عرض یا ارتفاع یا ggbBase64).",
+    "geogebra-file-not-found": "پرونده $1 یافت نشد.",
+    "geogebra-error": "خطا در گسترهٔ جئوجبرای مدیاویکی: <em>$1</em>"
+}

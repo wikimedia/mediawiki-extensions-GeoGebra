@@ -12,6 +12,7 @@ $ggb_version = "3.0d-web";
 // see: http://www.mediawiki.org/wiki/Extension:Java_Applet
 
 $wgHooks['ParserFirstCallInit'][] = 'ggb_AppletSetup';
+$wgMessagesDirs['GeoGebra'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['GeoGebra'] = __DIR__ . '/GeoGebra.i18n.php';
 
 $wgExtensionCredits['parserhook'][] = array(
@@ -54,7 +55,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
           $codeBaseUnsigned = 'http://www.geogebra.org/webstart/' . $version . '/unsigned/';
 		  $version_without_point = substr($version, 0, 1) . substr($version, 2,1);
 		  if ($version == '4.2' || $version == '4.4' || $version == '5.0'){
-			// just use $version as is 
+			// just use $version as is
 		  } else if ($version_without_point < 42) {
 				$version = '4.2';
 		  } else {

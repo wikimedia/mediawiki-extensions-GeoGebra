@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Darth Kule",
+            "Linedwell"
+        ]
+    },
+    "geogebra-desc": "Aggiunge applet di [http://www.geogebra.org GeoGebra] alle pagine",
+    "geogebra-nojava": "È necessario installare $1 per il funzionamento di questa pagina.",
+    "geogebra-missing-parameter": "Parametro mancante (width, height o ggbBase64).",
+    "geogebra-file-not-found": "File $1 non trovato.",
+    "geogebra-error": "Errore nell'estensione MediaWiki GeoGebra: <em>$1</em>"
+}

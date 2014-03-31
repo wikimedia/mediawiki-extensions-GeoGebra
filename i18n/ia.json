@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "geogebra-desc": "Adder applets de [http://www.geogebra.org GeoGebra] a paginas",
+    "geogebra-nojava": "Per favor installa $1 pro usar iste pagina.",
+    "geogebra-missing-parameter": "Manca un parametro (\"width\", \"height\" o \"ggbBase64\").",
+    "geogebra-file-not-found": "File $1 non trovate.",
+    "geogebra-error": "Error in extension MediaWiki \"GeoGebra\": <em>$1</em>"
+}
