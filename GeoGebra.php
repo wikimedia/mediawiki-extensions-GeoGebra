@@ -138,7 +138,7 @@ function get_ggbAppletOutput( $input, $args, $parser ) {
           }
         }
 
-        // if error occured, discard applet and output error message
+        // if error occurred, discard applet and output error message
         if ( $error_message == 'no error' ) {
           $debug .= 'No error<br>' . $CRLF;
           if ( $useSignedJar != 'true' ) {  // Default
