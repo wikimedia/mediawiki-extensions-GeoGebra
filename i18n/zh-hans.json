@@ -1,12 +1,13 @@
 {
     "@metadata": {
         "authors": [
-            "Yfdyh000"
+            "Yfdyh000",
+            "Hudafu"
         ]
     },
     "geogebra-desc": "向页面添加 [http://www.geogebra.org GeoGebra] 小程序",
     "geogebra-nojava": "请安装 $1 以使用此页。",
     "geogebra-missing-parameter": "缺少参数（宽度或高度或 ggbBase64）。",
     "geogebra-file-not-found": "找不到文件 $1。",
-    "geogebra-error": "MediaWiki扩展GeoGebra中的错误：<em>$1</em>"
+    "geogebra-error": "MediaWiki扩展程序GeoGebra出错：<em>$1</em>"
 }
