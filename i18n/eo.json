@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yekrats"
-        ]
-    },
-    "geogebra-file-not-found": "Dosiero $1 ne troviĝis."
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"geogebra-file-not-found": "Dosiero $1 ne troviĝis."
 }

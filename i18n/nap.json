@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chelin"
-        ]
-    },
-    "geogebra-file-not-found": "File $1 nun trovato."
+	"@metadata": {
+		"authors": [
+			"Chelin"
+		]
+	},
+	"geogebra-file-not-found": "File $1 nun trovato."
 }

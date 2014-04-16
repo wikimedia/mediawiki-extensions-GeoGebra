@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "geogebra-desc": "Engade applets de [http://www.geogebra.org GeoGebra] ás páxinas",
-    "geogebra-nojava": "Instale o $1 para usar esta páxina.",
-    "geogebra-missing-parameter": "Falta o parámetro (\"width\" ou \"height\" ou \"ggbBase64\").",
-    "geogebra-file-not-found": "Non se atopou o ficheiro \"$1\".",
-    "geogebra-error": "Erro na extensión GeoGebra de MediaWiki: <em>$1</em>"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"geogebra-desc": "Engade applets de [http://www.geogebra.org GeoGebra] ás páxinas",
+	"geogebra-nojava": "Instale o $1 para usar esta páxina.",
+	"geogebra-missing-parameter": "Falta o parámetro (\"width\" ou \"height\" ou \"ggbBase64\").",
+	"geogebra-file-not-found": "Non se atopou o ficheiro \"$1\".",
+	"geogebra-error": "Erro na extensión GeoGebra de MediaWiki: <em>$1</em>"
 }

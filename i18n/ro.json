@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Firilacroco"
-        ]
-    },
-    "geogebra-file-not-found": "Fișierul $1 nu a fost găsit."
+	"@metadata": {
+		"authors": [
+			"Firilacroco"
+		]
+	},
+	"geogebra-file-not-found": "Fișierul $1 nu a fost găsit."
 }

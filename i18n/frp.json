@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "ChrisPtDe"
-        ]
-    },
-    "geogebra-file-not-found": "Fichiér $1 pas trovâ."
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"geogebra-file-not-found": "Fichiér $1 pas trovâ."
 }

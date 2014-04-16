@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vks"
-        ]
-    },
-    "geogebra-file-not-found": "Soubor $1 nebyl nalezen."
+	"@metadata": {
+		"authors": [
+			"Vks"
+		]
+	},
+	"geogebra-file-not-found": "Soubor $1 nebyl nalezen."
 }

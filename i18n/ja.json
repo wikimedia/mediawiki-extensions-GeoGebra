@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "geogebra-desc": "ページに [http://www.geogebra.org GeoGebra] アプレットを追加する",
-    "geogebra-nojava": "このページを使用するには $1 をインストールしてください。",
-    "geogebra-missing-parameter": "パラメーター (width、height、ggbBase64 のいずれか) がありません。",
-    "geogebra-file-not-found": "ファイル $1 が見つかりません。",
-    "geogebra-error": "GeoGebra MediaWiki 拡張機能でエラーが発生しました: <em>$1</em>"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"geogebra-desc": "ページに [http://www.geogebra.org GeoGebra] アプレットを追加する",
+	"geogebra-nojava": "このページを使用するには $1 をインストールしてください。",
+	"geogebra-missing-parameter": "パラメーター (width、height、ggbBase64 のいずれか) がありません。",
+	"geogebra-file-not-found": "ファイル $1 が見つかりません。",
+	"geogebra-error": "GeoGebra MediaWiki 拡張機能でエラーが発生しました: <em>$1</em>"
 }

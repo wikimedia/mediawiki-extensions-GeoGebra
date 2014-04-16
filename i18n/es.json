@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin"
-        ]
-    },
-    "geogebra-desc": "Añade applets de [http://www.geogebra.org GeoGebra] a las páginas",
-    "geogebra-nojava": "Instala $1 para usar esta página.",
-    "geogebra-missing-parameter": "Falta un parámetro (\"width\" o \"height\" o \"ggbBase64\").",
-    "geogebra-file-not-found": "No se encuentra el archivo $1.",
-    "geogebra-error": "Error en la extensión GeoGebra de MediaWiki: <em>$1</em>"
+	"@metadata": {
+		"authors": [
+			"Armando-Martin"
+		]
+	},
+	"geogebra-desc": "Añade applets de [http://www.geogebra.org GeoGebra] a las páginas",
+	"geogebra-nojava": "Instala $1 para usar esta página.",
+	"geogebra-missing-parameter": "Falta un parámetro (\"width\" o \"height\" o \"ggbBase64\").",
+	"geogebra-file-not-found": "No se encuentra el archivo $1.",
+	"geogebra-error": "Error en la extensión GeoGebra de MediaWiki: <em>$1</em>"
 }

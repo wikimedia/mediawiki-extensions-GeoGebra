@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "ZaDiak"
-        ]
-    },
-    "geogebra-nojava": "Παρακαλώ εγκαταστήστε το $1 για να χρησιμοποιήσετε αυτήν τη σελίδα.",
-    "geogebra-file-not-found": "Το αρχείο $1 δεν βρέθηκε."
+	"@metadata": {
+		"authors": [
+			"ZaDiak"
+		]
+	},
+	"geogebra-nojava": "Παρακαλώ εγκαταστήστε το $1 για να χρησιμοποιήσετε αυτήν τη σελίδα.",
+	"geogebra-file-not-found": "Το αρχείο $1 δεν βρέθηκε."
 }

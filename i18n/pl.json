@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "BeginaFelicysym",
-            "Chrumps"
-        ]
-    },
-    "geogebra-desc": "Dodaje applety [http://www.geogebra.org GeoGebra] na stronach",
-    "geogebra-nojava": "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
-    "geogebra-file-not-found": "Nie odnaleziono pliku $1."
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps"
+		]
+	},
+	"geogebra-desc": "Dodaje applety [http://www.geogebra.org GeoGebra] na stronach",
+	"geogebra-nojava": "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
+	"geogebra-file-not-found": "Nie odnaleziono pliku $1."
 }
