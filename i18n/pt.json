@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helder.wiki"
+			"Helder.wiki",
+			"He7d3r",
+			"Vitorvicentevalente"
 		]
 	},
-	"geogebra-desc": "Acrescenta miniaplicativos do [http://www.geogebra.org GeoGebra] às páginas"
+	"geogebra-desc": "Acrescenta miniaplicativos do [http://www.geogebra.org GeoGebra] às páginas",
+	"geogebra-file-not-found": "Ficheiro $1 não encontrado."
 }
