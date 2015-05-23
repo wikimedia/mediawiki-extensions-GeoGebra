@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chelin"
+			"Chelin",
+			"C.R."
 		]
 	},
-	"geogebra-file-not-found": "File $1 nun trovato."
+	"geogebra-desc": "Azzecca [http://www.geogebra.org GeoGebra] applet dint' 'e paggene",
+	"geogebra-nojava": "Pe' piacere installate $1 pe puté ausà sta paggena.",
+	"geogebra-missing-parameter": "Parametro mancante (larghezza o altezza o ggbBase64).",
+	"geogebra-file-not-found": "File $1 nun trovato.",
+	"geogebra-error": "Errore int'a l'estenzione GeoGebra MediaWiki: <em>$1</em>"
 }
