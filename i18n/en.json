@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rudolf Grossmann"
-        ]
-    },
-    "geogebra-desc": "Add [http://www.geogebra.org GeoGebra] applets to pages",
-    "geogebra-nojava": "Please install $1 to use this page.",
-    "geogebra-missing-parameter": "Missing parameter (width or height or ggbBase64).",
-    "geogebra-file-not-found": "File $1 not found.",
-    "geogebra-error": "Error in GeoGebra MediaWiki extension: <em>$1</em>"
+	"@metadata": {
+		"authors": [
+			"Rudolf Grossmann"
+		]
+	},
+	"geogebra-desc": "Add [http://www.geogebra.org GeoGebra] applets to pages",
+	"geogebra-nojava": "Please install $1 to use this page.",
+	"geogebra-missing-parameter": "Missing parameter (width or height or ggbBase64).",
+	"geogebra-file-not-found": "File $1 not found.",
+	"geogebra-error": "Error in GeoGebra MediaWiki extension: <em>$1</em>"
 }
