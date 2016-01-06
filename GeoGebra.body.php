@@ -49,7 +49,7 @@ class ExtGeoGebra{
 	
     if(!count(self::$divs)) return true;
     
-    global $wgTitle, $wgJsMimeType;
+    global $wgJsMimeType;
     $out->addScript("<script type='$wgJsMimeType' src='$deployGGBUrl'></script>\n");
     $scriptBody = "for(var key in window.ggbParams){
 	var c=window.ggbParams[key];	
