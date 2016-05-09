@@ -2,7 +2,7 @@
 
 class ExtGeoGebra{
 
-	static $divs = array();
+	static $divs = [];
 
 	public static function geogebraTag( $input, $args, $parser ) {
 
@@ -16,7 +16,7 @@ class ExtGeoGebra{
 		}
 
 		$parameters = '';
-		$shortKeyMap = array(
+		$shortKeyMap = [
 				'id'=>'material_id',
 				'border' => 'borderColor',
 				'rc'=>'enableRightClick',
@@ -27,7 +27,7 @@ class ExtGeoGebra{
 				'stbh'=>'showToolBarHelp',
 				'showtoolbar'=>'showToolBar',
 				'enableRightClick'=>'enableRightClick'
-		);
+		];
 
 		foreach ( $args as $key => $value ){
 			if ( $key == "filename" ){

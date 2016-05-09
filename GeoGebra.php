@@ -5,14 +5,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 /** REGISTRATION */
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['parserhook'][] = [
 	'path' => __FILE__,
 	'name' => 'GeoGebra',
 	'version' => '3.0.7',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GeoGebra',
-	'author' => array( 'Rudolf Grossmann','Zbynek Konecny' ),
+	'author' => [ 'Rudolf Grossmann','Zbynek Konecny' ],
 	'descriptionmsg' => 'geogebra-desc',
-);
+];
 
 $wgAutoloadClasses['ExtGeoGebra'] = __DIR__ . '/GeoGebra.body.php';
 $wgExtensionMessagesFiles['GeoGebra'] = __DIR__ . '/GeoGebra.i18n.php';
