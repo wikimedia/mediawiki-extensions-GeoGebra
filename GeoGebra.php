@@ -22,7 +22,7 @@ $wgHooks['ParserFirstCallInit'][] = 'wfGeoGebraInit';
 $wgHooks['BeforePageDisplay'][] = 'ExtGeoGebra::injectJS';
 
 /**
- * @param $parser Parser
+ * @param Parser $parser
  * @return bool
  */
 function wfGeoGebraInit( $parser ) {

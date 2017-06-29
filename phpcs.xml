@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <ruleset>
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
-		<exclude name="Generic.Files.LineLength"/>
-		<exclude name="MediaWiki.VariableAnalysis.UnusedGlobalVariables"/>
-		<exclude name="PSR2.Classes.PropertyDeclaration.ScopeMissing"/>
+		<exclude name="MediaWiki.Commenting.FunctionComment"/>
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>
