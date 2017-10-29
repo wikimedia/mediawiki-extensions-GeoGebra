@@ -15,7 +15,6 @@ $wgExtensionCredits['parserhook'][] = [
 ];
 
 $wgAutoloadClasses['ExtGeoGebra'] = __DIR__ . '/GeoGebra.body.php';
-$wgExtensionMessagesFiles['GeoGebra'] = __DIR__ . '/GeoGebra.i18n.php';
 $wgMessagesDirs['GeoGebra'] = __DIR__ . '/i18n';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfGeoGebraInit';
