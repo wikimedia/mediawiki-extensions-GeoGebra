@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
 	"geogebra-desc": "Legger til [http://www.geogebra.org GeoGebra]-miniprogrammer til sider",
 	"geogebra-nojava": "Installer $1 for å bruke denne siden.",
 	"geogebra-missing-parameter": "Manglende parameter (\"width\", \"height\" eller \"ggbBase64\").",
