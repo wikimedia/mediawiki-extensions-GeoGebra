@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"ZaDiak",
-			"Protnet"
+			"Protnet",
+			"Nikosgranturismogt"
 		]
 	},
 	"geogebra-nojava": "Παρακαλούμε εγκαταστήστε την $1 για να χρησιμοποιήσετε αυτήν τη σελίδα.",
-	"geogebra-file-not-found": "Το αρχείο $1 δεν βρέθηκε."
+	"geogebra-file-not-found": "Το αρχείο $1 δεν βρέθηκε.",
+	"geogebra-error": "Σφάλμα στην επέκταση GeoGebra του MediaWiki: <em>$1</em>"
 }
