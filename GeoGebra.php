@@ -1,30 +1,14 @@
 <?php
-
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'This file is a MediaWiki extension, it is not a valid entry point' );
-}
-
-/** REGISTRATION */
-$wgExtensionCredits['parserhook'][] = [
-	'path' => __FILE__,
-	'name' => 'GeoGebra',
-	'version' => '3.0.8',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:GeoGebra',
-	'author' => [ 'Rudolf Grossmann','Zbynek Konecny' ],
-	'descriptionmsg' => 'geogebra-desc',
-];
-
-$wgAutoloadClasses['ExtGeoGebra'] = __DIR__ . '/GeoGebra.body.php';
-$wgMessagesDirs['GeoGebra'] = __DIR__ . '/i18n';
-
-$wgHooks['ParserFirstCallInit'][] = 'wfGeoGebraInit';
-$wgHooks['BeforePageDisplay'][] = 'ExtGeoGebra::injectJS';
-
-/**
- * @param Parser $parser
- * @return bool
- */
-function wfGeoGebraInit( $parser ) {
-	$parser->setHook( 'ggb_applet', 'ExtGeoGebra::geogebraTag' );
-	return true;
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'GeoGebra' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['GeoGebra'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the GeoGebra extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the GeoGebra extension requires MediaWiki 1.25+' );
 }

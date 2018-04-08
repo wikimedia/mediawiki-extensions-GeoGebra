@@ -4,6 +4,15 @@ class ExtGeoGebra {
 
 	private static $divs = [];
 
+	/**
+	 * @param Parser $parser
+	 * @return bool
+	 */
+	public static function init( $parser ) {
+		$parser->setHook( 'ggb_applet', 'ExtGeoGebra::geogebraTag' );
+		return true;
+	}
+
 	public static function geogebraTag( $input, $args, $parser ) {
 		$CRLF = "\r\n";
 
@@ -56,8 +65,6 @@ class ExtGeoGebra {
 	}
 
 	static function injectJS( $out ) {
-		global $wgGeoGebraTechnology;
-
 		$deployGGBUrl = isset( $wgGeoGebraDeployURL )
 			? htmlspecialchars( strip_tags( $wgGeoGebraDeployURL ) )
 			: "https://cdn.geogebra.org/apps/deployggb.js";

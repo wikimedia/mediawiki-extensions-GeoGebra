@@ -1,0 +1,29 @@
+{
+	"name": "GeoGebra",
+	"version": "3.0.9",
+	"author": [
+		"Rudolf Grossmann",
+		"Zbynek Konecny",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GeoGebra",
+	"descriptionmsg": "geogebra-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ExtGeoGebra::init",
+		"BeforePageDisplay": "ExtGeoGebra::injectJS"
+	},
+	"MessagesDirs": {
+		"GeoGebra": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ExtGeoGebra": "GeoGebra.body.php"
+	},
+	"manifest_version": 1
+}
