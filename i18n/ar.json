@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"geogebra-desc": "إضافة بريمجات [http://www.geogebra.org GeoGebra] إلى الصفحات",
+	"geogebra-nojava": "الرجاء تثبيت $1 لاستخدام هذه الصفحة.",
+	"geogebra-missing-parameter": "وسيط مفقود (عرض أو ارتفاع أو ggbBase64).",
+	"geogebra-file-not-found": "الملف $1 غير موجود.",
+	"geogebra-error": "خطأ في ملحق ميدياويكي GeoGebra: <em>$1</em>"
+}
