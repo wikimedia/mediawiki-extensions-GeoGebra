@@ -63,7 +63,7 @@ class ExtGeoGebra {
 			: "preferhtml5";
 		$deployGGBUrl = isset( $wgGeoGebraDeployURL )
 			? htmlspecialchars( strip_tags( $wgGeoGebraDeployURL ) )
-			: "//tube-beta.geogebra.org/scripts/deployggb.js";
+			: "https://cdn.geogebra.org/apps/deployggb.js";
 
 		if ( !count( self::$divs ) ) {
 			return true;
