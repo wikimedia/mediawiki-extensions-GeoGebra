@@ -8,7 +8,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = [
 	'path' => __FILE__,
 	'name' => 'GeoGebra',
-	'version' => '3.0.7',
+	'version' => '3.0.8',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GeoGebra',
 	'author' => [ 'Rudolf Grossmann','Zbynek Konecny' ],
 	'descriptionmsg' => 'geogebra-desc',
