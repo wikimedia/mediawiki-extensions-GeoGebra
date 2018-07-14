@@ -58,9 +58,6 @@ class ExtGeoGebra {
 	static function injectJS( $out ) {
 		global $wgGeoGebraTechnology;
 
-		$technology = isset( $wgGeoGebraTechnology )
-			? htmlspecialchars( strip_tags( $wgGeoGebraTechnology ) )
-			: "preferhtml5";
 		$deployGGBUrl = isset( $wgGeoGebraDeployURL )
 			? htmlspecialchars( strip_tags( $wgGeoGebraDeployURL ) )
 			: "https://cdn.geogebra.org/apps/deployggb.js";
@@ -74,7 +71,7 @@ class ExtGeoGebra {
 		$scriptBody = "for(var key in window.ggbParams){\n" .
 			"var c=window.ggbParams[key];\n" .
 			"new GGBApplet(c,'',{'is3D':!!c['is3D'],'AV':!!c['gui']})" .
-			".inject('ggbContainer'+key,c['at']?c['at']:'$technology');}\n";
+			".inject('ggbContainer'+key);}\n";
 
 		$out->addScript( "<script type='$wgJsMimeType'>$scriptBody</script>\n" );
 		return true;
