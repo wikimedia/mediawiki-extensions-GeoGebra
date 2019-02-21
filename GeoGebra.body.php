@@ -73,14 +73,13 @@ class ExtGeoGebra {
 			return true;
 		}
 
-		global $wgJsMimeType;
-		$out->addScript( "<script type='$wgJsMimeType' src='$deployGGBUrl'></script>\n" );
+		$out->addScript( "<script type='text/javascript' src='$deployGGBUrl'></script>\n" );
 		$scriptBody = "for(var key in window.ggbParams){\n" .
 			"var c=window.ggbParams[key];\n" .
 			"new GGBApplet(c,'',{'is3D':!!c['is3D'],'AV':!!c['gui']})" .
 			".inject('ggbContainer'+key);}\n";
 
-		$out->addScript( "<script type='$wgJsMimeType'>$scriptBody</script>\n" );
+		$out->addScript( "<script type='text/javascript'>$scriptBody</script>\n" );
 		return true;
 	}
 }
