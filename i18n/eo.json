@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
-	"geogebra-file-not-found": "Dosiero $1 ne troviĝis."
+	"geogebra-desc": "Aldoni [http://www.geogebra.org GeoGebra]-aplikaĵetojn al paĝoj",
+	"geogebra-nojava": "Bonvolu instalo $1 por uzi ĉi tiun paĝon.",
+	"geogebra-missing-parameter": "Parametro mankas (width aŭ height aŭ ggbBase64).",
+	"geogebra-file-not-found": "Dosiero $1 ne troviĝis.",
+	"geogebra-error": "Eraro en la GeoGebra-etendaĵo de MediaVikio: <em>$1</em>"
 }
