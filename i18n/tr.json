@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"geogebra-desc": "Sayfalara [https://www.geogebra.org GeoGebra] applet ekle",
+	"geogebra-nojava": "Lütfen bu sayfayı kullanmak için $1 yükleyin.",
+	"geogebra-missing-parameter": "Eksik parametre (genişlik veya yükseklik veya ggbBase64).",
+	"geogebra-file-not-found": "$1 dosyası bulunamadı.",
+	"geogebra-error": "GeoGebra MediaWiki uzantısında hata: <em>$1</em>"
+}
