@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class ExtGeoGebra {
 
 	private static $divs = [];
@@ -37,9 +39,15 @@ class ExtGeoGebra {
 			'enableRightClick' => 'enableRightClick'
 		];
 
+		if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+			// MediaWiki 1.34+
+			$localRepo = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo();
+		} else {
+			$localRepo = RepoGroup::singleton()->getLocalRepo();
+		}
 		foreach ( $args as $key => $value ) {
 			if ( $key == "filename" ) {
-				$ggbFile = wfLocalFile( $value );
+				$ggbFile = $localRepo->newFile( $value );
 				if ( !( $ggbFile->exists() ) ) {
 					return wfMessage( 'geogebra-file-not-found' )
 						->rawParams( $ggbBinary )->escaped();
