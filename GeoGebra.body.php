@@ -4,17 +4,23 @@ use MediaWiki\MediaWikiServices;
 
 class ExtGeoGebra {
 
+	/** @var string[] */
 	private static $divs = [];
 
 	/**
 	 * @param Parser $parser
-	 * @return bool
 	 */
 	public static function init( $parser ) {
-		$parser->setHook( 'ggb_applet', 'ExtGeoGebra::geogebraTag' );
-		return true;
+		$parser->setHook( 'ggb_applet', [ __CLASS__, 'geogebraTag' ] );
 	}
 
+	/**
+	 * @param string|null $input
+	 * @param string[] $args
+	 * @param Parser $parser
+	 *
+	 * @return string
+	 */
 	public static function geogebraTag( $input, $args, $parser ) {
 		$CRLF = "\r\n";
 
@@ -50,7 +56,7 @@ class ExtGeoGebra {
 				$ggbFile = $localRepo->newFile( $value );
 				if ( !( $ggbFile->exists() ) ) {
 					return wfMessage( 'geogebra-file-not-found' )
-						->rawParams( $ggbBinary )->escaped();
+						->rawParams( $ggbFile )->escaped();
 				} else {
 					$fc = file_get_contents( $ggbFile->getLocalRefPath() );
 					$parameters .= ',ggbBase64:"' . base64_encode( $fc ) . '"';
@@ -72,14 +78,18 @@ class ExtGeoGebra {
 		return $iframe;
 	}
 
-	static function injectJS( $out ) {
+	/**
+	 * @param OutputPage $out
+	 */
+	public static function injectJS( $out ) {
 		global $wgGeoGebraDeployURL;
+
 		$deployGGBUrl = isset( $wgGeoGebraDeployURL )
 			? htmlspecialchars( strip_tags( $wgGeoGebraDeployURL ) )
 			: "https://cdn.geogebra.org/apps/deployggb.js";
 
 		if ( !count( self::$divs ) ) {
-			return true;
+			return;
 		}
 
 		$out->addScript( "<script type='text/javascript' src='$deployGGBUrl'></script>\n" );
@@ -89,6 +99,5 @@ class ExtGeoGebra {
 			".inject('ggbContainer'+key);}\n";
 
 		$out->addScript( "<script type='text/javascript'>$scriptBody</script>\n" );
-		return true;
 	}
 }
