@@ -73,6 +73,7 @@ class ExtGeoGebra {
 	}
 
 	static function injectJS( $out ) {
+		global $wgGeoGebraDeployURL;
 		$deployGGBUrl = isset( $wgGeoGebraDeployURL )
 			? htmlspecialchars( strip_tags( $wgGeoGebraDeployURL ) )
 			: "https://cdn.geogebra.org/apps/deployggb.js";
