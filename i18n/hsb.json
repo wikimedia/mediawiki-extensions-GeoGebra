@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michawiki"
+			"Michawiki",
+			"J budissin"
 		]
 	},
 	"geogebra-desc": "Aplety [http://www.geogebra.org GeoGebra] stronam přidać",
-	"geogebra-nojava": "Prošu instaluj $1, zo by tutu stronu wužiwał.",
+	"geogebra-nojava": "Prošu instaluj $1, zo by tutu stronu {{GENDER:|wužiwał|wužiwała|wužiwał(a)}}.",
 	"geogebra-missing-parameter": "Falowacy parameter (\"width\", \"height\" abo \"ggbBase64\").",
 	"geogebra-file-not-found": "Dataja $1 njeje so namakała.",
 	"geogebra-error": "Zmylk w rozšěrjenju MediaWiki GeoGebra: <em>$1</em>"
