@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
-			"Mjbmr"
+			"Mjbmr",
+			"Beginneruser"
 		]
 	},
-	"geogebra-desc": "افزودن برنامه‌های [http://www.geogebra.org GeoGebra] به صفحات",
+	"geogebra-desc": "افزودن برنامه‌های [http://www.geogebra.org GeoGebra] به صفحه‌ها",
 	"geogebra-nojava": "لطفاً $1 را برای استفاده از این صفحه نصب کنید",
 	"geogebra-missing-parameter": "گم‌شدن پارامتر (عرض یا ارتفاع یا ggbBase64).",
 	"geogebra-file-not-found": "پرونده $1 یافت نشد.",
