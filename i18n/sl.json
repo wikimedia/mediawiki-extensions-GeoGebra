@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"geogebra-desc": "Dodajte na strani programčke [http://www.geogebra.org GeoGebra]",
+	"geogebra-nojava": "Če želite uporabljati to stran, namestite $1.",
+	"geogebra-missing-parameter": "Manjka parameter (širina ali višina ali ggbBase64).",
+	"geogebra-file-not-found": "Datoteka $1 ni bila najdena.",
+	"geogebra-error": "Napaka v razširitvi GeoGebra za MediaWiki: <em>$1</em>"
+}
