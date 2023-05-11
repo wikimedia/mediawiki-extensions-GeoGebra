@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"geogebra-desc": "Pridėkite [http://www.geogebra.org GeoGebra] programėles į puslapius",
+	"geogebra-nojava": "Norėdami naudoti šį puslapį, įdiekite $1.",
+	"geogebra-missing-parameter": "Trūksta parametro (plotis arba aukštis, arba ggbBase64).",
+	"geogebra-file-not-found": "Failas $1 nerastas.",
+	"geogebra-error": "Klaida GeoGebra MediaWiki plėtinyje: <em>$1</em>"
+}
