@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Sagan",
-			"Азат Хәлилов"
+			"Азат Хәлилов",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"geogebra-desc": "Биткә апплет өҫтәй [http://www.geogebra.org GeoGebra]",
-	"geogebra-nojava": "Битте ҡарау өсөн $1 өҫтәгеҙ.",
-	"geogebra-missing-parameter": "Параметрҙар етмәй (киңлек, бейеклек йәки ggbBase64).",
-	"geogebra-file-not-found": "Файл $1 табылманы",
-	"geogebra-error": "MediaWiki GeoGebra ҡушымтаһында хата: <em>$1</em>"
+	"geogebra-desc": "Биттәргә апплеттар өҫтәй [http://www.geogebra.org GeoGebra]",
+	"geogebra-nojava": "Битте ҡулланыу өсөн $1 ҡуйығыҙ.",
+	"geogebra-missing-parameter": "Параметрҙар юҡ (киңлек, бейеклек йәки ggbBase64).",
+	"geogebra-file-not-found": "Файл $1 табылманы.",
+	"geogebra-error": "MediaWiki GeoGebra киңәйтеүендә хата: <em>$1</em>"
 }
