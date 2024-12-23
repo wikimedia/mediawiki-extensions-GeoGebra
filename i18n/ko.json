@@ -9,5 +9,5 @@
 	"geogebra-nojava": "이 문서를 사용하려면 $1을(를) 설치하세요.",
 	"geogebra-missing-parameter": "변수(width 또는 height 또는 ggbBase64)가 없습니다.",
 	"geogebra-file-not-found": "$1 파일을 찾을 수 없습니다.",
-	"geogebra-error": "GeoGebra 미디어위키 확장 기능에 오류가 났습니다: <em>$1</em>"
+	"geogebra-error": "GeoGebra 미디어위키 확장 기능에 오류가 발생했습니다: <em>$1</em>"
 }
