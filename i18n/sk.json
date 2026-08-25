@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"geogebra-desc": "Pridáva na stránky applety [http://www.geogebra.org GeoGebra]",
+	"geogebra-nojava": "Ak chcete používať túto stránku, nainštalujte si, prosím, $1.",
+	"geogebra-missing-parameter": "Chýbajúci parameter (width, height alebo ggbBase64).",
+	"geogebra-file-not-found": "Súbor $1 sa nenašiel.",
+	"geogebra-error": "Chyba v rozšírení GeoGebra pre MediaWiki: <em>$1</em>"
+}
